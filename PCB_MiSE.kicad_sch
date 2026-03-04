@@ -5298,6 +5298,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 167.64) (xy 233.68 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355e43ce-26b4-4910-90ed-3fdaf00c447a")
+	)
+	(wire
+		(pts
 			(xy 101.6 276.86) (xy 101.6 275.59)
 		)
 		(stroke
@@ -6388,7 +6398,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 90.17) (xy 220.98 166.37)
+			(xy 220.98 90.17) (xy 220.98 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7068,16 +7078,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 167.64) (xy 233.68 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2871344-d481-4f21-a29f-5345a95f1a98")
-	)
-	(wire
-		(pts
 			(xy 238.76 193.04) (xy 246.38 193.04)
 		)
 		(stroke
@@ -7155,16 +7155,6 @@
 			(type default)
 		)
 		(uuid "dd7ccd40-1de5-4a13-a460-d3971a045728")
-	)
-	(wire
-		(pts
-			(xy 220.98 166.37) (xy 219.71 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de12ac67-4390-4a2f-bb18-ac456485c44e")
 	)
 	(wire
 		(pts
@@ -7475,6 +7465,50 @@
 			(type default)
 		)
 		(uuid "ff2ee502-4f1d-4476-9060-dbd7205dcb7c")
+	)
+	(global_label "C+"
+		(shape input)
+		(at 199.39 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0473b552-4074-477b-ac0d-87f4e4e1d373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.5624 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C-"
+		(shape input)
+		(at 213.36 231.14 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28925270-debc-48ab-b45b-af533f54f920")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 225.3124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GPIOl'"
 		(shape input)
@@ -12153,7 +12187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Horizontal"
 			(at 548.64 222.25 0)
 			(effects
 				(font
