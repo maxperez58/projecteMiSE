@@ -4541,6 +4541,12 @@
 		(uuid "a092a138-8494-4aac-a64d-c5a72dd2218c")
 	)
 	(junction
+		(at 227.33 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0b6649b-ebda-41f9-88ea-a9c458114a5c")
+	)
+	(junction
 		(at 97.79 335.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5908,7 +5914,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 205.74) (xy 246.38 205.74)
+			(xy 227.33 205.74) (xy 246.38 205.74)
 		)
 		(stroke
 			(width 0)
@@ -6245,16 +6251,6 @@
 			(type default)
 		)
 		(uuid "9293fd2e-f439-4c6b-af9e-18ff1b8795c4")
-	)
-	(wire
-		(pts
-			(xy 227.33 213.36) (xy 234.95 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a2b827-65cd-4d14-9657-81811b3bded3")
 	)
 	(wire
 		(pts
@@ -6918,16 +6914,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 207.01) (xy 227.33 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5ded96b-a33c-4ac9-a30e-6c297fe7d8d4")
-	)
-	(wire
-		(pts
 			(xy 556.26 219.71) (xy 558.8 219.71)
 		)
 		(stroke
@@ -7135,16 +7121,6 @@
 			(type default)
 		)
 		(uuid "dbe4d67a-1577-45d3-9c98-1d336476c8c9")
-	)
-	(wire
-		(pts
-			(xy 234.95 205.74) (xy 234.95 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd577aca-d588-4e1b-b14e-67b4ab9cdaa1")
 	)
 	(wire
 		(pts
@@ -9366,7 +9342,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 227.33 207.01 0)
+		(at 227.33 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9374,7 +9350,7 @@
 		(dnp no)
 		(uuid "417e4c52-efe9-4d2c-b351-d6ac1e958157")
 		(property "Reference" "#PWR010"
-			(at 227.33 210.82 0)
+			(at 227.33 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,7 +9359,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 230.632 205.74 0)
+			(at 230.632 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,7 +9367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 207.01 0)
+			(at 227.33 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +9376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 207.01 0)
+			(at 227.33 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9409,7 +9385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 227.33 207.01 0)
+			(at 227.33 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12687,7 +12663,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db9d3e9d-5001-41fe-bde7-535c837d1406")
 		(property "Reference" "C2"
 			(at 231.14 208.2799 0)
@@ -12880,6 +12855,71 @@
 			(project "PCB_MiSE"
 				(path "/d767662d-a2fb-4431-89c7-c67b7c23601b"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1c3179a-70a0-49e3-8b25-813028d624a5")
+		(property "Reference" "#PWR024"
+			(at 227.33 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.568 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1424b3ec-2ed9-487e-94a4-1856547a3091")
+		)
+		(instances
+			(project "PCB_MiSE"
+				(path "/d767662d-a2fb-4431-89c7-c67b7c23601b"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
