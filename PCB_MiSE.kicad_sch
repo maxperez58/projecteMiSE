@@ -4403,6 +4403,12 @@
 		(uuid "111ec881-547e-46ae-8e8f-ac7f40c0356c")
 	)
 	(junction
+		(at 227.33 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1841f946-4e60-41cc-aa7e-2af7aace9f3d")
+	)
+	(junction
 		(at 269.24 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5048,16 +5054,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 278.13) (xy 303.53 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a0d849b-ef27-4132-a6b1-a7b30ba02aed")
-	)
-	(wire
-		(pts
 			(xy 322.58 381) (xy 327.66 381)
 		)
 		(stroke
@@ -5295,6 +5291,16 @@
 			(type default)
 		)
 		(uuid "34e73528-95c9-4c86-a299-1a87029ee799")
+	)
+	(wire
+		(pts
+			(xy 220.98 167.64) (xy 233.68 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355e43ce-26b4-4910-90ed-3fdaf00c447a")
 	)
 	(wire
 		(pts
@@ -5618,6 +5624,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 205.74) (xy 227.33 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558f8949-abc6-409f-a371-fe0639c3e2e1")
+	)
+	(wire
+		(pts
 			(xy 337.82 375.92) (xy 337.82 373.38)
 		)
 		(stroke
@@ -5898,7 +5914,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 205.74) (xy 246.38 205.74)
+			(xy 227.33 205.74) (xy 246.38 205.74)
 		)
 		(stroke
 			(width 0)
@@ -6238,16 +6254,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 213.36) (xy 234.95 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a2b827-65cd-4d14-9657-81811b3bded3")
-	)
-	(wire
-		(pts
 			(xy 36.83 212.09) (xy 43.18 212.09)
 		)
 		(stroke
@@ -6338,7 +6344,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 351.79) (xy 330.2 351.79)
+			(xy 302.26 351.79) (xy 330.2 351.79)
 		)
 		(stroke
 			(width 0)
@@ -6388,7 +6394,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 90.17) (xy 220.98 166.37)
+			(xy 220.98 90.17) (xy 220.98 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6458,7 +6464,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 269.24) (xy 302.26 278.13)
+			(xy 302.26 269.24) (xy 302.26 351.79)
 		)
 		(stroke
 			(width 0)
@@ -6585,16 +6591,6 @@
 			(type default)
 		)
 		(uuid "acf4db5a-c068-4125-aaf4-58acfda45006")
-	)
-	(wire
-		(pts
-			(xy 303.53 278.13) (xy 303.53 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acfa2d52-b1ac-4ac3-a007-111915eda47c")
 	)
 	(wire
 		(pts
@@ -6908,7 +6904,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 207.01) (xy 227.33 205.74)
+			(xy 224.79 204.47) (xy 224.79 205.74)
 		)
 		(stroke
 			(width 0)
@@ -7068,16 +7064,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 167.64) (xy 233.68 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2871344-d481-4f21-a29f-5345a95f1a98")
-	)
-	(wire
-		(pts
 			(xy 238.76 193.04) (xy 246.38 193.04)
 		)
 		(stroke
@@ -7138,16 +7124,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 205.74) (xy 234.95 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd577aca-d588-4e1b-b14e-67b4ab9cdaa1")
-	)
-	(wire
-		(pts
 			(xy 481.33 99.06) (xy 499.11 99.06)
 		)
 		(stroke
@@ -7155,16 +7131,6 @@
 			(type default)
 		)
 		(uuid "dd7ccd40-1de5-4a13-a460-d3971a045728")
-	)
-	(wire
-		(pts
-			(xy 220.98 166.37) (xy 219.71 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de12ac67-4390-4a2f-bb18-ac456485c44e")
 	)
 	(wire
 		(pts
@@ -7475,6 +7441,50 @@
 			(type default)
 		)
 		(uuid "ff2ee502-4f1d-4476-9060-dbd7205dcb7c")
+	)
+	(global_label "C+"
+		(shape input)
+		(at 199.39 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0473b552-4074-477b-ac0d-87f4e4e1d373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.5624 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C-"
+		(shape input)
+		(at 213.36 231.14 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28925270-debc-48ab-b45b-af533f54f920")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 225.3124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GPIOl'"
 		(shape input)
@@ -7898,7 +7908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSP430:THB001P"
+		(property "Footprint" "Proyecto:THB001P"
 			(at 69.85 307.01 0)
 			(effects
 				(font
@@ -8521,7 +8531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSP430:LCD_2x16_I2C(Midas)"
+		(property "Footprint" "Proyecto:LCD_2x16_I2C(Midas)"
 			(at 229.87 90.17 0)
 			(effects
 				(font
@@ -9060,6 +9070,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 227.33 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c9172f9-5369-4f89-8d0e-717b983b5fab")
+		(property "Reference" "#PWR024"
+			(at 227.33 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.568 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1890f795-4439-472e-984c-3e429f2d333c")
+		)
+		(instances
+			(project "PCB_MiSE"
+				(path "/d767662d-a2fb-4431-89c7-c67b7c23601b"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 186.69 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9332,7 +9407,8 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 227.33 207.01 0)
+		(at 224.79 204.47 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9340,7 +9416,7 @@
 		(dnp no)
 		(uuid "417e4c52-efe9-4d2c-b351-d6ac1e958157")
 		(property "Reference" "#PWR010"
-			(at 227.33 210.82 0)
+			(at 224.79 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +9425,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 230.632 205.74 0)
+			(at 221.488 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9357,7 +9433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 207.01 0)
+			(at 224.79 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9366,7 +9442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 207.01 0)
+			(at 224.79 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +9451,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 227.33 207.01 0)
+			(at 224.79 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9568,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MSP430:Trimmer_MiSE"
+		(property "Footprint" "Proyecto:Trimmer_MiSE"
 			(at 499.11 105.41 0)
 			(effects
 				(font
@@ -9697,7 +9773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MSP430:Trimmer_MiSE"
+		(property "Footprint" "Proyecto:Trimmer_MiSE"
 			(at 50.8 132.08 0)
 			(effects
 				(font
@@ -10940,7 +11016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 55.245 119.38 90)
 			(effects
 				(font
@@ -12153,7 +12229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 548.64 222.25 0)
 			(effects
 				(font
@@ -12371,7 +12447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSP430:conn_DFrobot"
+		(property "Footprint" "Proyecto:conn_DFrobot"
 			(at 314.96 381 0)
 			(effects
 				(font
@@ -12743,7 +12819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 503.555 93.98 90)
 			(effects
 				(font
@@ -13449,7 +13525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSP430:QFP50P900X900X160-48N"
+		(property "Footprint" "Proyecto:QFP50P900X900X160-48N"
 			(at 372.11 247.32 0)
 			(effects
 				(font
