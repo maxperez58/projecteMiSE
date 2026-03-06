@@ -10974,7 +10974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 55.245 119.38 90)
 			(effects
 				(font
@@ -12777,7 +12777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 503.555 93.98 90)
 			(effects
 				(font
