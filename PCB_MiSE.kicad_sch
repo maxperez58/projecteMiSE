@@ -8421,7 +8421,7 @@
 			(uuid "e0949297-d63b-4755-81ae-b9599a18d15d")
 		)
 		(instances
-			(project ""
+			(project "PCB_MiSE"
 				(path "/d767662d-a2fb-4431-89c7-c67b7c23601b"
 					(reference "SW1")
 					(unit 1)
@@ -9329,7 +9329,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "32a26cab-8824-4374-9cb6-c4203a847b9a")
 		(property "Reference" "R6"
 			(at 323.85 43.1799 0)
@@ -9341,7 +9340,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 323.85 45.7199 0)
+			(at 327.914 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10963,7 +10962,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8529146e-9c46-46bb-8691-97cb192e86b1")
 		(property "Reference" "R7"
 			(at 339.09 41.9099 0)
@@ -10975,7 +10973,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 339.09 44.4499 0)
+			(at 342.646 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
