@@ -1,4 +1,4 @@
-27229267860367976
+27219017742349677
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95038,48 +95038,6 @@ Potentiometer vertical vishay
 0
 3
 3
-Proyecto
-LCD_2x16_I2C(Midas)
-Through hole straight pin header, 2x04, 2.54mm pitch, double rows
-Through hole pin header THT 2x04 2.54mm double row
-0
-12
-12
-Proyecto
-LDR
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-Proyecto
-QFP50P900X900X160-48N
-PT (S-PQFP-G48) -1
-Integrated Circuit
-0
-48
-48
-Proyecto
-THB001P
-THB001P-5
-Switch
-0
-14
-14
-Proyecto
-Trimmer_MiSE
-Potentiometer, vertical, Trimmer, RM-065 https://components101.com/sites/default/files/component_datasheet/Preset%20Potentiometer%20%28Trimpot%29.pdf
-Potentiometer Trimmer RM-065
-0
-3
-3
-Proyecto
-conn_DFrobot
-
-
-0
-19
-19
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
